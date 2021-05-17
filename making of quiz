@@ -1,0 +1,150 @@
+#include<iostream>
+#include<conio.h>
+#include<dos.h>
+using namespace std;
+int main()
+{
+    system("color 3e");
+	int x,y,z;
+	x=y=z=0;
+	char ch1[100],ch2,ch3,ch4,ch5,ch6,ch7,ch8,ch9,ch10,ch11;
+	cout<<"*****Guest Enter Your Name*****"<<endl;
+	cin>>ch1;
+
+	cout<<"****Welcome****"<<ch1<<endl;
+
+	cout<<"Enter answer in form of 'a','b' and'c'only."<<endl;
+
+	cout<<"\nQ:-What is called as ' THE HOLYLAND'?"<<"\na.Jerusalem"<<"\nb.Mathura"<<"\nc.Mecca"<<endl;
+	cin>>ch2;
+	if(ch2=='a')
+	{
+		x=x+10;
+		cout<<"Good Job...."<<"Your score is :)"<<x<<endl;
+		cout<<"\nPress Enter for Next Question"<<endl;
+
+
+	}
+	else
+	cout<<"Sorry wrong answer :(";
+	getch();
+	cout<<"\nQ:-What is called as ' THE ROOF OF THE WORLD'?"<<"\na.Nepal"<<"\nb.Rome"<<"\nc.Tibet"<<endl;
+	cin>>ch2;
+	if(ch2=='c')
+	{
+		x=x+10;
+		cout<<"Good Job...."<<"Your score is :) "<<x<<endl;
+
+	}
+	else
+	cout<<"Sorry wrong answer :(";
+	getch();
+
+	cout<<"\nQ:-What is called as ' THE LAND OF RISINGSUN'?"<<"\na.Chicago"<<"\nb.Japan"<<"\nc.Tibet"<<endl;
+	cin>>ch2;
+	if(ch2=='b')
+	{
+		x=x+10;
+		cout<<"Good Job...."<<"Your score is :)"<<x<<endl;
+
+
+	}
+	else
+	cout<<"Sorry wrong answer :("<<endl;
+	getch();
+	cout<<"\nQ:-What is called as ' THE GIFT OFNILE'?"<<"\na.Chicago"<<"\nb.Egypt"<<"\nc.Africa"<<endl;
+
+	cin>>ch2;
+	if(ch2=='b')
+	{
+		x=x+10;
+		cout<<"Your score is :)"<<x<<endl;
+
+
+	}
+	else
+	cout<<"Sorry wrong answer :("<<endl;
+	getch();
+	cout<<"\nQ:-What is called as ' THE LAND OF MIDNIGHT SUN'?"<<"\na.Norway"<<"\nb.Japan"<<"\nc.Australia"<<endl;
+
+	cin>>ch2;
+	if(ch2=='a')
+	{
+		x=x+10;
+		cout<<"Your score is :)"<<x<<endl;
+	}
+	else
+	cout<<"Sorry wrong answer :(";
+	getch();
+	cout<<"\nQ:-What is called as ' THE LAND OF THUNDERBOLT'?"<<"\na.Bhutan"<<"\nb.Canada"<<"\nc.Arab"<<endl;
+	cin>>ch2;
+if(ch2=='a')
+	{
+		x=x+10;
+		cout<<"Your score is :)"<<x<<endl;
+
+
+	}
+	else
+	cout<<"Sorry wrong answer :(";
+	getch();
+	cout<<"\nQ:-What is called as ' THE WINDY CITY?"<<"\na.Jerusalem"<<"\nb.Japan"<<"\nc.Chicago"<<endl;
+	cin>>ch2;
+	if(ch2=='c')
+	{
+		x=x+10;
+		cout<<"Your score is :) "<<x<<endl;
+
+
+	}
+	else
+	cout<<"Sorry wrong answer:( "<<endl;
+	getch();
+	cout<<"\nQ:-What is called as ' THE LAND OF WHITE ELEPHANTS'?"<<"\na.Bangladesh"<<"\nb.Thailand"<<"\nc.India"<<endl;
+	cin>>ch2;
+	if(ch2=='b')
+	{
+		x=x+10;
+		cout<<"Your score is :) "<<x<<endl;
+
+
+	}
+	else
+	cout<<"Sorry wrong answer :( "<<endl;
+	getch();
+	cout<<"\nQ:-What is called as ' THE CITY OF SEVEN HILLS'?"<<"\na.Rome"<<"\nb.Nilgiri Hills"<<"\nc.Tibet"<<endl;
+	cin>>ch2;
+	if(ch2=='a')
+	{
+		x=x+10;
+		cout<<"Your score is :) "<<x<<endl;
+	}
+	else
+	cout<<"Sorry wrong answer:( "<<endl;
+	getch();
+	cout<<"\nQ:-What is called as ' THE DARK CONTIENENT'?"<<"\na.Asia"<<"\nb.Australia"<<"\nc.Africa"<<endl;
+	cin>>ch2;
+	if(ch2=='c')
+	{
+		x=x+10;
+		cout<<"Your score is :)  "<<x<<endl;
+
+	}
+	else
+	cout<<"Sorry wrong answer:( "<<endl;
+	getch();
+	if(x==100)
+	cout<<"No cheating...."<<"*You have done this earlier also.*"<<endl;
+	if(x==90)
+	cout<<"You are extremely intelligent"<<" Your Score is 90"<<endl;
+	if(x==80)
+	cout<<"You are intelligent"<<"Your Score is 80"<<endl;
+	if(50==x||x==70||x==60)
+	cout<<"You are average"<<"Your Score is "<<x<<"\nBetter luck next time"<<endl;
+	else if(x<=40)
+	cout<<"No use........ Not even 5 questions right   :( "<<endl;
+	getch();
+}
+
+
+
